@@ -11,77 +11,102 @@
     <title>Nosotros</title>
 </head>
 <body>
+<!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <div class="container-fluid fondoHeader">
+      <div>
+        <img src="./img/logo2.JPG" alt="">
+        <p class="text-white">Contratistas y Consultores</p>
+      </div>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="./consultoria.html">Consultoría</a>
+          </li>
 
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contratistas</a>
+          </li>
 
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid fondoHeade fondoHeader">
-            <!-- elementos de la barra de navegación -->
-            <div>
-                <img src="./img/logo2.JPG" alt="">
-                <p class="navbar-brand text-white" href="#">Contratistas y Consultores</p>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tecnología</a>
+          </li>
 
-            </div>
-            
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Consultoría</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contratistas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Tecnología</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Capacitación
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contáctanos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Capacitación
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Planificación Minera</a></li>
+              <li><a class="dropdown-item" href="#">Geomecánica</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Operaciones Mina</a></li>
             </ul>
-            
-          </div>
-        </div>
-      </nav>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="./contactanos.html">Contáctanos</a>
+          </li>
+
+        </ul>
+
+        
+      </div>
+    </div>
+  </nav>
 
     
+<!-- Main -->
+<div class="container">
+
+  <h2 class="mt-5 mb-5">Generando valor y oportunidades para el negocio minero...</h2>
+
+  <div class="d-flex justify-content-around">
+    <div class="card text-center" style="width: 18rem;">
+      <h5 class="card-title">Consultoría</h5>
+      <img src="./img/Consultoria.jpg" class="card-img-top img-fluid" alt="...">
+      <p class="card-text">Nuestros servicios de consultoría se enfocan en brindar soluciones que generen valor para el negocio minero </p>  
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title text-center">Contratista</h5>
+      <img src="./img/Contratista.jpg" class="card-img-top" alt="...">
+      <p class="card-text text-center">Nuestros servicios de consultoría se enfocan en brindar soluciones que generen valor para el negocio minero </p>  
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title text-center">Tecnología</h5>
+      <img src="./img/Tecnologia.png" class="card-img-top" alt="...">
+      <p class="card-text text-center">Nuestros servicios de consultoría se enfocan en brindar soluciones que generen valor para el negocio minero </p>  
+    </div>
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-title text-center">Capacitación</h5>
+      <img src="./img/Capacitacion.jpg" class="card-img-top" alt="...">
+      <p class="card-text text-center">Nuestros servicios de consultoría se enfocan en brindar soluciones que generen valor para el negocio minero </p>  
+    </div>
+
+  </div>
 
   
 
-    <main class="main row d-flex align-items">
-        <h2>Generando valor y oportunidades para el negocio minero...</h2>
 
-        <!-- aplicando grillas de bootstrap -->
-        <div class="row d-flex justify-content-around">
+  
+
             <div class="consultoria col-12 col-sm-2">
-                <h3>Consultoría</h3>
+                <h3></h3>
                 <a href="./consultoria.html">
                     <img src="./img/Consultoria.jpg" alt="">
                 </a>
-                <p>Nuestros servicios de consultoría se enfocan en brindar soluciones que generen valor para el negocio minero </p>
-            </div>
+                <p>
             <div class="contratista col-12 col-sm-2">
                 <h3>Contratista</h3>
                 <a href="./contratistas.html">

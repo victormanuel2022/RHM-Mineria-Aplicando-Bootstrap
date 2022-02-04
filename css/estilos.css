@@ -732,3 +732,17 @@
 .textoBarrasuperior{
     font-size: 13px;
 }
+
+.colorAmarillo{
+    color: rgb(244,138,25);
+
+}
+
+.navbar-toggler-icon{
+    background-image: url();
+}
+
+.card img{
+    width:250px;
+    height: 250px;
+}
