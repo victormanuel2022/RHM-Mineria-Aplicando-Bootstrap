@@ -749,6 +749,24 @@
     color: rgb(0,32,96);
 }
 
+.img-all{    
+    border-radius: 10%;   
+    padding: 1px; 
+    box-shadow: 0 10px 10px gray;
+    
+}
+
+
+.mynav a{
+    margin-right: 15px;
+}
+
+.mynav a:hover{    
+    border-radius: 20%;    
+    border-bottom: 2px solid orange;
+}
+
+
 /* redes sociales */
 
 .redes-sociales {
