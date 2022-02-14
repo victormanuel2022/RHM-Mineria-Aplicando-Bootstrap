@@ -756,16 +756,16 @@
     
 }
 
-
-.mynav a{
-    margin-right: 15px;
-}
-
 .mynav a:hover{    
     border-radius: 20%;    
     border-bottom: 2px solid orange;
 }
 
+.formul{
+    background-color: #e5e7ec;
+    border-radius: 5%;
+    
+}
 
 /* redes sociales */
 
